@@ -9,3 +9,6 @@ def write_word_counts(output_folder, word_counts):
     with open(output_file, "w", encoding="utf-8") as f:
         for word, count in word_counts.items():
             f.write(f"{word}\t{count}\n")
+
+
+# Hacer todo siempre en cmd
